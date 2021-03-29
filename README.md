@@ -1,0 +1,1 @@
+# standard-maven-pom.github.io
