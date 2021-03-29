@@ -3,7 +3,7 @@
 Maven `pom.xml` is to be treated as code. Using [POM Reference](http://maven.apache.org/pom.html)
 the order of element as follows:
 
-
+```
   <!-- Main POM entries -->
   <parent>...</parent> optional
 
@@ -21,7 +21,7 @@ the order of element as follows:
   
   for jar modules
   <dependencies>...</dependencies>
-  
+ ``` 
 
 Recommended dependencies order (blocks are separated by empty line):
 - current project dependencies, i.e. other modules
