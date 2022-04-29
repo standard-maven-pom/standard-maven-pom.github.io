@@ -1,6 +1,7 @@
-# standard-maven-pom.github.io
+# standard maven pom.xml file order and style
 
-Maven `pom.xml` is to be treated as code. Using [POM Reference](http://maven.apache.org/pom.html)
+Maven `pom.xml` is to be treated as code. 
+Using [POM Reference](http://maven.apache.org/pom.html)
 the order of element as follows:
 
 ```
