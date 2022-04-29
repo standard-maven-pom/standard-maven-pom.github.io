@@ -5,15 +5,15 @@ the order of element as follows:
 
 ```
   <!-- Main POM entries -->
-  <parent>...</parent> optional
-
+  <parent>... <!-- optional parent GAV section -->
+  </parent>
+  
   <groupId>...</groupId>
   <artifactId>...</artifactId>
   <version>...</version>
-  <packaging>...</packaging>
+  <packaging>...</packaging> <!-- if jar, just delete as it is default -->
 
   <properties>...</properties>
-
   
   for pom modules
   <modules>...</modules>
@@ -24,11 +24,12 @@ the order of element as follows:
  ``` 
 
 Recommended dependencies order (blocks are separated by empty line):
-- current project dependencies, i.e. other modules
+- other modules as dependencies 
 - internal other departments 
 - main framework dependencies, e.g. `spring`
-- standard dependencies
+- usual dependencies
 - less often used dependencies
+- test scope dependencies
 
 ---
 
